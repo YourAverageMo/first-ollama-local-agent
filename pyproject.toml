@@ -10,3 +10,11 @@ dependencies = [
     "langchain-ollama>=0.3.3",
     "pandas>=2.2.3",
 ]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "tab"
+docstring-code-format = true
